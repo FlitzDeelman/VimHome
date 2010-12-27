@@ -96,5 +96,11 @@ if !exists(":DiffOrig")
 endif
 
 " Modifications by Riaan Swart
+
+" Let ctags keyboard shortcuts look at cscope data before any ctags data.
 set cst
 set csto=0
+" Tab settings
+set ts=4
+set sw=4
+set expandtab
