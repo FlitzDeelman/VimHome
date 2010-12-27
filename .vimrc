@@ -104,3 +104,7 @@ set csto=0
 set ts=4
 set sw=4
 set expandtab
+" Python autocomplete
+filetype plugin on
+set ofu=syntaxcomplete#Complete
+let g:pydiction_location = '$HOME/.vim/pydiction/complete-dict'
